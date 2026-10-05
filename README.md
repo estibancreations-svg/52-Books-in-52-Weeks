@@ -1,63 +1,111 @@
 # 52 Books in 52 Weeks
 
-A writing structure for producing **52 semi-fiction books in 52 weeks**, written at a **10th-grade reading level**, published to the web directly and formatted for both physical print and e-reader (KDP-style) distribution.
+A writing and publishing system for producing **52 books in 52 weeks**, with a repeatable path from lived experience or concept → story architecture → manuscript → edit → format → release.
 
-## Status: Getting Organized
+The project began as a semi-fiction publishing experiment at roughly a **10th-grade reading level**, with output intended for direct web publishing, physical print, and e-reader distribution.
 
-As of 2026-09-17, this project is in the **foundation-setup stage**. Nothing below is final — it is the outline from the original planning conversation, captured so there's a trail to pick back up from.
+## Status: Week 1 Activated
 
-## Concept (as defined so far)
+As of **2026-10-05**, the project has moved from foundation-only planning into its first defined creative direction.
 
-- **Content type:** Semi-fiction — fictional/dramatized treatment of real subjects, not straight fiction and not straight non-fiction. Exact definition of "semi-fiction" for this project is still open.
-- **Reading level:** 10th grade, in terms of vocabulary/verbiage.
-- **Book list:** Not yet created. The plan is to build a system for generating the 52 topics/themes together, rather than picking them ahead of time.
-- **Genre:** Not yet decided — open question whether the year stays in one genre or ranges across several.
-- **Book 1:** Sire has already written one book with prior AI assistance, and it is intended to count as **the first of the 52**. The chat history for that book has not been uploaded yet — Sire may upload it later so the working rhythm from that process can be matched going forward. *(Note: "The Tub" — a separate repo — is a semi-fiction grief memoir that matches this project's described format closely. Worth confirming whether it's Book 01, or whether Book 01 is a different manuscript.)*
+### Current Book 01 Direction
+- **Working title:** *The Why*
+- **Series / collection framework:** *True Stories*
+- **Status:** Active concept development; title and final Book 01 designation remain working until the older pre-repository manuscript is reconciled.
+- **Core question:** Why do people do what they do, and what do we learn when we revisit the conversations, sayings, humor, mistakes, faith, and hard-earned wisdom passed down to us?
+- **Primary lens:** intergenerational knowledge — grandparents, elders, family friends, mentors, and other people whose words become clearer as we grow older.
 
-## Publishing Plan (as defined so far)
+### True Stories Framework
+*True Stories* is designed around real conversations and lived moments. Stories may be funny, witty, painful, spiritual, or instructional, but each should preserve the human voice of the moment and reveal what the narrator understood then versus what the narrator understands now.
 
-- A dedicated **website** will be built to publish books directly — not just a submission-based or third-party platform.
-- That website needs to support **editing and formatting to a specific layout**, then output for:
-  - Physical (print) books
-  - E-reader / e-book formats (KDP-style)
-- Distribution beyond the owned site (e.g., actual KDP listing) is a later-phase decision.
+A recurring story architecture:
+1. **The moment** — what happened.
+2. **The words** — what was said.
+3. **The younger interpretation** — what the narrator noticed or misunderstood at the time.
+4. **The question** — what curiosity opened up.
+5. **The later understanding** — what experience revealed.
+6. **The lesson** — the principle that survived the moment.
+7. **The inheritance** — how the lesson is carried forward and offered to someone else.
 
-## Workflow (three phases, from the original planning conversation)
+### Anchor Story Seed
+One early anchor story begins with a family friend visiting the narrator's grandmother. The adults and cousins are joking about a purse. Everyone laughs, but the young narrator notices something the others do not seem to be discussing directly.
 
-### Phase 1 — Foundation Setup
-1. Content System Design — a repeatable framework for generating 52 unique semi-fiction books
-2. Website Architecture — the publishing platform: editing, formatting, distribution
-3. Production Workflow — the weekly cycle from concept to published book
+**Hook:** *Everyone laughed. I did too. But I noticed something — and once I noticed it, I couldn't stop asking why.*
 
-### Phase 2 — Book Generation System
-- Theme/Topic Generator — systematic approach for variety and appeal
-- Story Templates — flexible frameworks for semi-fiction across different subjects
-- Quality Standards — 10th-grade reading level guidelines and consistency checks
+The story connects to the lesson: **“When people show you who they are, believe them.”** The goal is not to use the saying as decoration; the chapter should show how the lesson was learned through an actual human encounter, curiosity, memory, and later understanding.
 
-### Phase 3 — Technical Infrastructure
-- Website Development — publishing platform with CMS capabilities
-- Formatting Tools — templates for both physical and e-book layouts
-- Distribution Setup — integration with KDP and other platforms
+### Spiritual / Stewardship Thread
+Book 01 also carries a second question beneath the first: **What am I supposed to do with what I have been given?**
 
-See `00-system-bible/` (Phases 1–2) and `01-technical-infrastructure/` (Phase 3) for where this work will live once it's built out.
+The working progression is:
+**Why am I doing this? → What is mine to do? → Align it with prayer and purpose → Build something that can bless more than me → Steward the ship responsibly.**
+
+This is a foundational theme, not a closing add-on.
+
+## Week 1 Objective
+
+Week 1 is **not** “write an entire book blindly.” The first week establishes the repeatable operating system while generating enough real material to begin Book 01.
+
+The Week 1 deliverable is:
+- a locked Book 01 promise,
+- 7–12 true-story seeds,
+- the lesson attached to each story,
+- a defined truth/reconstruction standard,
+- a chapter map,
+- and at least one fully developed anchor-story draft.
+
+See:
+- `00-system-bible/TRUE-STORIES-SERIES-BIBLE.md`
+- `books/book-01/WEEK-01-PLAN.md`
+- `09-source-conversations/2026-10-05_TRUE-STORIES-MENTAL-DUMP.md`
+
+## Publishing Plan
+
+- Dedicated owned website for direct publishing.
+- Editing and formatting to a defined house layout.
+- Output for:
+  - Physical / print books
+  - E-reader / e-book formats
+  - Direct web reading
+- External distribution such as KDP remains a later deployment choice.
+
+## Core Workflow
+
+### Phase 1 — Capture
+Conversation, memory, quote, event, question, image, emotion, or lesson.
+
+### Phase 2 — Meaning
+Identify what the younger narrator believed, what was actually happening, and what the narrator understands now.
+
+### Phase 3 — Story
+Build the scene with people, place, tension, humor, dialogue, sensory detail, and a reason for the reader to continue.
+
+### Phase 4 — Reflection
+Connect the story to the deeper “why” without turning the book into a lecture.
+
+### Phase 5 — Manuscript
+Outline → draft → continuity check → truth/reconstruction check → developmental edit → line edit.
+
+### Phase 6 — Production
+Format → cover → metadata → accessibility → proof → publish → archive source material.
 
 ## Directory Index
 
-- **00-system-bible** — Content system design: theme generator, story templates, quality standards (TBD)
-- **01-technical-infrastructure** — Website/publishing platform, formatting tools, distribution (TBD)
-- **books/TEMPLATE** — Reusable folder structure for a single book
-- **books/book-01** — Placeholder for the first book (already drafted with prior AI assistance; chat log pending upload)
-- **09-source-conversations** — Verbatim planning conversations, starting with the original scoping conversation
-- **99-archive** — Superseded material
+- **00-system-bible** — content rules, series architecture, weekly system, quality standards
+- **01-technical-infrastructure** — publishing platform, formatting tools, distribution
+- **books/TEMPLATE** — reusable book folder
+- **books/book-01** — current Book 01 working direction
+- **09-source-conversations** — source conversations and idea dumps
+- **99-archive** — superseded material
 
 ## Decision Trail
 
-- Original planning conversation (date as provided by Sire; platform not specified) — scoped semi-fiction format, 10th-grade reading level, own-website publishing plan, starting fresh on the book list, Book 1 already underway. Full text archived in `09-source-conversations/`.
-- 2026-09-17 — Repo created and organized from that conversation as part of the wider GitHub buildout with Claude. Public visibility, per Sire's decision that new project repos in this buildout are public. Full session record: [Master-System-Buildout / 08-CHAT-LOGS](https://github.com/estibancreations-svg/Master-System-Buildout/tree/main/08-CHAT-LOGS/Claude/Estibancreations).
+- **2026-09-17** — repository organized from the original planning conversation.
+- **2026-10-05** — *True Stories* introduced as an intergenerational story framework; *The Why* established as the current Book 01 working direction; Week 1 activated around purpose, story capture, and a repeatable weekly production system.
 
-## Open Questions (blocking further build-out)
+## Open Decisions
 
-1. What is Book 1, specifically — is it "The Tub," or a different manuscript? (Chat log to confirm, when uploaded.)
-2. Definition of "semi-fiction" for this project (dramatized true stories vs. fictional scenarios teaching real concepts vs. something else).
-3. Single genre for the year, or a mix?
-4. Website platform/tech choice for Phase 3.
+1. Reconcile the older pre-repository Book 01 manuscript with the new *The Why / True Stories* direction before final publication numbering.
+2. Decide the final title/subtitle after the first chapter cluster is drafted.
+3. Define the final boundary between verbatim truth, reconstructed dialogue, composite scenes, and semi-fiction.
+4. Lock the owned publishing-site technical stack after the writing system is stable.
